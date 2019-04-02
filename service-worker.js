@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/brunomanarin/bruno-espindola-frontend-deploy/precache-manifest.2570476c8eb8ff128a2b831eba4112cb.js"
+  "/bruno-espindola-frontend-deploy/precache-manifest.7d30fc6fe60f5121656db4a83b20df9d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/brunomanarin/bruno-espindola-frontend-deploy/index.html", {
+workbox.routing.registerNavigationRoute("/bruno-espindola-frontend-deploy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
