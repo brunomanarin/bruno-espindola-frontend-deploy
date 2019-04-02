@@ -1,13 +1,13 @@
 {
-  "main.css": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/css/main.741259a0.chunk.css",
-  "main.js": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/js/main.f76292b6.chunk.js",
-  "main.js.map": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/js/main.f76292b6.chunk.js.map",
-  "runtime~main.js": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/js/runtime~main.3c29da5e.js",
-  "runtime~main.js.map": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/js/runtime~main.3c29da5e.js.map",
-  "static/js/2.26ea269e.chunk.js": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/js/2.26ea269e.chunk.js",
-  "static/js/2.26ea269e.chunk.js.map": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/js/2.26ea269e.chunk.js.map",
-  "index.html": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/index.html",
-  "precache-manifest.43829fe3681897897ff0576ef98298c8.js": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/precache-manifest.43829fe3681897897ff0576ef98298c8.js",
-  "service-worker.js": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/service-worker.js",
-  "static/css/main.741259a0.chunk.css.map": "/cheesecakelabs-cupcakers/bruno-espindola-frontend/static/css/main.741259a0.chunk.css.map"
+  "main.css": "/brunomanarin/bruno-espindola-frontend-deploy/static/css/main.741259a0.chunk.css",
+  "main.js": "/brunomanarin/bruno-espindola-frontend-deploy/static/js/main.5907d63f.chunk.js",
+  "main.js.map": "/brunomanarin/bruno-espindola-frontend-deploy/static/js/main.5907d63f.chunk.js.map",
+  "runtime~main.js": "/brunomanarin/bruno-espindola-frontend-deploy/static/js/runtime~main.b59f61f3.js",
+  "runtime~main.js.map": "/brunomanarin/bruno-espindola-frontend-deploy/static/js/runtime~main.b59f61f3.js.map",
+  "static/js/2.d972fc71.chunk.js": "/brunomanarin/bruno-espindola-frontend-deploy/static/js/2.d972fc71.chunk.js",
+  "static/js/2.d972fc71.chunk.js.map": "/brunomanarin/bruno-espindola-frontend-deploy/static/js/2.d972fc71.chunk.js.map",
+  "index.html": "/brunomanarin/bruno-espindola-frontend-deploy/index.html",
+  "precache-manifest.2570476c8eb8ff128a2b831eba4112cb.js": "/brunomanarin/bruno-espindola-frontend-deploy/precache-manifest.2570476c8eb8ff128a2b831eba4112cb.js",
+  "service-worker.js": "/brunomanarin/bruno-espindola-frontend-deploy/service-worker.js",
+  "static/css/main.741259a0.chunk.css.map": "/brunomanarin/bruno-espindola-frontend-deploy/static/css/main.741259a0.chunk.css.map"
 }

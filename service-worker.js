@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cheesecakelabs-cupcakers/bruno-espindola-frontend/precache-manifest.43829fe3681897897ff0576ef98298c8.js"
+  "/brunomanarin/bruno-espindola-frontend-deploy/precache-manifest.2570476c8eb8ff128a2b831eba4112cb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cheesecakelabs-cupcakers/bruno-espindola-frontend/index.html", {
+workbox.routing.registerNavigationRoute("/brunomanarin/bruno-espindola-frontend-deploy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
