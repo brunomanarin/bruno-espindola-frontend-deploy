@@ -1,0 +1,68 @@
+/*--------------- ARTICLE COMPONENTS -------------*/
+
+.smallerArticleTitles {
+    font-weight: bold;
+}
+
+.smallerArticleTitlesFit {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.articlePhoto {
+    height: 354px;
+    width: 555px;
+}
+
+.articleDescription {
+    padding-top: 30px;
+}
+
+.articleParagraph {
+    float: left;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #686868;
+}
+
+.authorAvatarBig {
+    border-radius: 50%;
+    float: left;
+}
+
+.authorAvatar {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.authorNameBig {
+    font-style: italic;
+    font-size: 13px;
+    color: var(--grey);
+    float: left;
+    padding-left: 5px;
+}
+
+.authorName {
+    font-style: italic;
+    font-size: 13px;
+    color: var(--grey);
+    float: left;
+    padding-left: 5px;
+}
+
+.authorNameFit {
+    font-style: italic;
+    font-size: 13px;
+    color: var(--grey);
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.categoryText {
+    margin: 3px;
+    font-size: 10px;
+}

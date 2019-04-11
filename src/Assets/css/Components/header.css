@@ -1,0 +1,79 @@
+/*-------------- HEADER ----------------*/
+
+#logoNavBar {
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    padding: 0;
+}
+
+#navbar-menu {
+    display: none;
+}
+
+#header {
+    border-bottom: 1px solid var(--grey);
+}
+
+.header {
+    height: 75px;
+}
+
+.header p {
+    float: none;
+    position: relative;
+    padding-left: 50%;
+}
+
+.icon {
+    display: block;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+/* ------------- MOBILE/RESPONSIVITY -------------*/
+
+@media (min-width: 1170px) {
+    #logoNavBar {
+        position: relative;
+        margin-left: 10%;
+        left: 0;
+    }
+    #navBarLinks {
+        position: absolute;
+        right: 10%;
+    }
+    .header {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .header p {
+        float: left;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 10px;
+        margin-top: 10px !important;
+        display: block;
+        padding: .5rem 1rem;
+        cursor: pointer;
+    }
+    #navbar-menu {
+        display: inline-block;
+    }
+    .icon {
+        display: none;
+    }
+}
+
+.mobileMenu {
+    margin-left: 40px;
+    animation: mobileMenuTranslate 0.6s;
+}
