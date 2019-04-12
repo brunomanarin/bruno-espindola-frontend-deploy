@@ -53,8 +53,8 @@ class App extends Component {
       preLoader = <PreLoader />;
       homePage = null;
     }
-    if(this.props.articleError && this.props.subjectError){
-      errorHandler = <ErrorHandler/>
+    if (this.props.articleError && this.props.subjectError) {
+      errorHandler = <ErrorHandler />
       preLoader = null;
     }
     if (this.state.menuOpen) {

@@ -39,10 +39,10 @@ class FeaturedArticle extends Component {
 }
 
 FeaturedArticle.propTypes = {
-  articleData: PropTypes.string,
-  subjectData: PropTypes.string,
-  articleId: PropTypes.number,
-  subjectId: PropTypes.number,
+  articleData: PropTypes.object,
+  subjectData: PropTypes.object,
+  articleId: PropTypes.string,
+  subjectId: PropTypes.string,
 }
 FeaturedArticle.defaultProps = {
   articleData: '',

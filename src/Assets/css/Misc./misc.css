@@ -1,64 +1,70 @@
-
 /* ---------------- MISCELLANEOUS CSS (Read More Text/ Wrapers) -------------- */
-:root{
+
+:root {
     --grey: #808080;
     --white: #FFFFFF;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.separator{
-    height:1px;
-    width:100%;
+
+.separator {
+    height: 1px;
+    width: 100%;
     background: #E3E3E3;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.readMoreText{
+
+.readMoreText {
     position: absolute;
     margin-top: -23px;
-    top:50%;
+    top: 50%;
     margin-left: -68.85px;
     left: 50%;
-    color:var(--white);
+    color: var(--white);
     opacity: 0;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border: var(--white) solid 1px;
     cursor: pointer;
-    
 }
-.articleImageWrapper:hover .readMoreText{
+
+.articleImageWrapper:hover .readMoreText {
     animation-delay: 20ms;
     transition: 0.3s ease;
     opacity: 1;
 }
-.articleImageWrapper{
+
+.articleImageWrapper {
     position: relative;
 }
-.readMoreText2{
+
+.readMoreText2 {
     position: absolute;
-    top:50%;
+    top: 50%;
     margin-left: -53.5px;
     left: 50%;
     margin-top: -18px;
-    color:var(--white);
+    color: var(--white);
     opacity: 0;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
     border: var(--white) solid 1px;
     cursor: pointer;
-    
 }
-.articleImageWrapper2{
+
+.articleImageWrapper2 {
     position: relative;
 }
-.articleImageWrapper2:hover .readMoreText2{
+
+.articleImageWrapper2:hover .readMoreText2 {
     animation-delay: 20ms;
     transition: 0.3s ease;
-    opacity:1
+    opacity: 1
 }

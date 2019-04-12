@@ -1,37 +1,37 @@
 /* --------------- LOADING SCREEN -----------------*/
 
-.loadingAnimation{
+.loadingAnimation {
     position: absolute;
     margin: auto;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0 !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0 !important;
     height: 200px;
     width: 400px;
     background: white;
     z-index: -1;
-
 }
 
-.loadingAnimation div{
+.loadingAnimation div {
     position: absolute;
     top: 50%;
-    margin-top:-15px;
-    left:60%;
-    margin-left:-15px;
+    margin-top: -15px;
+    left: 60%;
+    margin-left: -15px;
     width: 15px;
     height: 15px;
     background: black;
     border-radius: 50%;
     animation: loading 1.5s infinite;
 }
-.loadingAnimation div:nth-child(1){
-    left:50%;
-    animation-delay: 0.125s
 
+.loadingAnimation div:nth-child(1) {
+    left: 50%;
+    animation-delay: 0.125s
 }
-.loadingAnimation div:nth-child(2){
-    left:40%;
+
+.loadingAnimation div:nth-child(2) {
+    left: 40%;
     animation-delay: 0.25s
 }

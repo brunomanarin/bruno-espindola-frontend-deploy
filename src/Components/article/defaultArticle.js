@@ -30,10 +30,10 @@ class DefaultArticle extends Component {
 }
 
 DefaultArticle.propTypes = {
-  articleData: PropTypes.string,
-  subjectData: PropTypes.string,
-  articleId: PropTypes.number,
-  subjectId: PropTypes.number,
+  articleData: PropTypes.object,
+  subjectData: PropTypes.object,
+  articleId: PropTypes.string,
+  subjectId: PropTypes.string,
 }
 DefaultArticle.defaultProps = {
   articleData: '',

@@ -1,22 +1,24 @@
 /* ---------- FILTER.JS --------------*/
 
-#filterTitle{
+#filterTitle {
     padding: 30px;
 }
-.filterButton{
+
+.filterButton {
     position: absolute;
-    left:50%;
-    margin-left:-57.5px;
+    left: 50%;
+    margin-left: -57.5px;
     padding: 15px;
     background-color: black;
     color: white;
     opacity: 0.5;
     transition-duration: 0.2s;
 }
-.filterButton:hover{
-    color:grey;
-    -webkit-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
-    cursor: pointer;    
+
+.filterButton:hover {
+    color: grey;
+    -webkit-box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }

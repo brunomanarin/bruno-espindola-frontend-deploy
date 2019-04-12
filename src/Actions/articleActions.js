@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export function fetchArticles() {
-  return function(dispatch) {
+  return function (dispatch) {
     axios
       .get('http://localhost:3001/articles.json')
       .then(response => {

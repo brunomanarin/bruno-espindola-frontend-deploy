@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export function fetchSubjects() {
-  return function(dispatch) {
+  return function (dispatch) {
     setTimeout(() => {
       axios
         .get('http://localhost:3001/subjects.json')
