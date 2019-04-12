@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import {connect} from 'react-redux';
+import React, { Component } from 'react'
+import {connect} from 'react-redux'
 
-import DefaultArticle from "../Components/articleComponents/defaultArticle";
+import DefaultArticle from "../Components/article/defaultArticle"
 import "../Assets/css/Pages/filter.css"
 
 @connect((store) => {

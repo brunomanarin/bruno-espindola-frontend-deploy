@@ -6,7 +6,7 @@ import MobileMenu from './Pages/mobileMenu'
 
 
 // Componentes importados:
-import Header from './Components/headerComponent/header'
+import Header from './Components/header'
 import Homepage from './Pages/homePage'
 import PreLoader from './Pages/loadingScreen'
 import Filter from './Pages/filterGetter'

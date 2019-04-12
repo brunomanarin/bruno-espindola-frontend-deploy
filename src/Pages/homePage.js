@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 
 // Componentes Importados
-import HeadLineArticle from "../Components/articleComponents/headlineArticle"
-import FeaturedArticle from "../Components/articleComponents/featuredArticle"
-import DefaultArticle from "../Components/articleComponents/defaultArticle"
+import HeadLineArticle from "../Components/article/headlineArticle"
+import FeaturedArticle from "../Components/article/featuredArticle"
+import DefaultArticle from "../Components/article/defaultArticle"
 import "../Assets/css/Pages/homePage.css"
 
 @connect((store) => {

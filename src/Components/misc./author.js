@@ -1,16 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-
-class Author extends Component {
-  render() {
-    const authorName = this.props.authorName;
-    return (
-      <div>
-        <img className="authorAvatar" alt="" src="http://localhost:3001/slices/author.jpg"></img>
-        <p className="authorName">by {authorName}</p>
-      </div>
-    );
-  }
+function Author(props) {
+  const { authorName } = props
+  return (
+    <div>
+      <img className="authorAvatar" alt="" src="http://localhost:3001/slices/author.jpg" />
+      <p className="authorName">by {authorName}</p>
+    </div>
+  )
+}
+Author.propTypes = {
+  authorName: PropTypes.string,
+}
+Author.defaultProps = {
+  authorName: 'Creed Battron',
 }
 
-export default Author;
+export default Author
