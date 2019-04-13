@@ -9,19 +9,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.separator {
+.mainBody__separator {
     height: 1px;
     width: 100%;
     background: #E3E3E3;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-.readMoreText {
-    position: absolute;
-    margin-top: -23px;
+.mainBody__readMoreText {
+    position: absolute; 
     top: 50%;
-    margin-left: -68.85px;
+    transform: translate(-50%, -50%);
     left: 50%;
     color: var(--white);
     opacity: 0;
@@ -33,22 +31,21 @@ body {
     cursor: pointer;
 }
 
-.articleImageWrapper:hover .readMoreText {
+.mainBody__articleImageWrapper:hover .mainBody__readMoreText {
     animation-delay: 20ms;
     transition: 0.3s ease;
     opacity: 1;
 }
 
-.articleImageWrapper {
+.mainBody__articleImageWrapper {
     position: relative;
 }
 
-.readMoreText2 {
+.mainBody__readMoreText2 {
     position: absolute;
     top: 50%;
-    margin-left: -53.5px;
     left: 50%;
-    margin-top: -18px;
+    transform: translate(-50%, -50%);
     color: var(--white);
     opacity: 0;
     background-color: rgba(0, 0, 0, .5);
@@ -59,11 +56,11 @@ body {
     cursor: pointer;
 }
 
-.articleImageWrapper2 {
+.mainBody__articleImageWrapper2 {
     position: relative;
 }
 
-.articleImageWrapper2:hover .readMoreText2 {
+.mainBody__articleImageWrapper2:hover .mainBody__readMoreText2 {
     animation-delay: 20ms;
     transition: 0.3s ease;
     opacity: 1

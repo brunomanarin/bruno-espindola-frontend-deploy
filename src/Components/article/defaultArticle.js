@@ -6,13 +6,13 @@ import '../../Assets/css/Components/articles.css'
 
 function defaultProp(articleData, subjectData, color) {
   return (
-    <div className="defaultArticleColumn" id="firstArticleSecondRow">
-      <p className="categoryText" style={color}>
+    <div className="mainBody__defaultArticleColumn">
+      <p className="mainBody__categoryText" style={color}>
         {subjectData}
       </p>
-      <p className="smallerArticleTitles">{articleData.title}</p>
+      <p className="mainBody__smallerArticleTitles">{articleData.title}</p>
       <Author authorName={articleData.authorName} />
-      <div className="articleParagraph">
+      <div className="mainBody__articleParagraph">
         <p>{articleData.description}</p>
       </div>
     </div>

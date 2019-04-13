@@ -1,10 +1,10 @@
 /* ---------- FILTER.JS --------------*/
 
-#filterTitle {
+#mainBody__filterTitle {
     padding: 30px;
 }
 
-.filterButton {
+.mainBody__filterButton {
     position: absolute;
     left: 50%;
     margin-left: -57.5px;
@@ -15,7 +15,7 @@
     transition-duration: 0.2s;
 }
 
-.filterButton:hover {
+.mainBody__filterButton:hover {
     color: grey;
     -webkit-box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.75);

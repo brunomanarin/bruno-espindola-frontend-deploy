@@ -7,21 +7,21 @@ import '../../Assets/css/Components/articles.css'
 
 function articleProp(articleData, subjectData, color) {
   return (
-    <div className="featuredArticleColumn" id="smallerArticle">
-      <p className="categoryText" alt="" style={color}>
+    <div className="mainBody__featuredArticleColumn">
+      <p className="mainBody__categoryText" alt="" style={color}>
         {subjectData}
       </p>
-      <div className="articleImageWrapper2">
+      <div className="mainBody__articleImageWrapper2">
         <ImageList data={articleData.thumbnail} />
-        <div className="readMoreText2">
+        <div className="mainBody__readMoreText2">
           <span>Read more</span>
         </div>
       </div>
-      <div className="smallerArticleTitles">
+      <div className="mainBody__smallerArticleTitles">
         <p>{articleData.title}</p>
       </div>
       <Author authorName={articleData.authorName} />
-      <div className="articleParagraph">
+      <div className="mainBody__articleParagraph">
         <p>{articleData.description}</p>
       </div>
     </div>

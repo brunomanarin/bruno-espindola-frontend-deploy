@@ -21,7 +21,7 @@ class Filter extends Component {
             articleDisplay[i] = articleLorem;
         }
         return (
-            <div className="line">
+            <div className="mainBody__line">
                 {articleDisplay}
             </div>
         );
@@ -32,14 +32,14 @@ class Filter extends Component {
     render() {
         return (
             <div className="mainBody">
-                <div className="filterBody">
-                    <div className="line" id="filterTitle">
+                <div className="mainBody__filterBody">
+                    <div className="mainBody__line" id="mainBody__filterTitle">
                     </div>
                     {this.filterGenerator(this.props.subjectId)}
-                    <div className="line" id="filterTitle">
+                    <div className="mainBody__line" id="mainBody__filterTitle">
                     </div>
                     <div>
-                        <button className="filterButton" onClick={this.backToMenu.bind(this)}> Back to Menu </button>
+                        <button className="mainBody__filterButton" onClick={this.backToMenu.bind(this)}> Back to Menu </button>
                     </div>
                 </div>
             </div>

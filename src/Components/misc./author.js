@@ -5,8 +5,8 @@ function Author(props) {
   const { authorName } = props
   return (
     <div>
-      <img className="authorAvatar" alt="" src="http://localhost:3001/slices/author.jpg" />
-      <p className="authorName">by {authorName}</p>
+      <img className="mainBody__authorAvatar" alt="" src="http://localhost:3001/slices/author.jpg" />
+      <p className="mainBody__authorName">by {authorName}</p>
     </div>
   )
 }

@@ -6,20 +6,20 @@ import '../../Assets/css/Components/articles.css'
 
 function headLineProp(articleData, subjectData, color) {
   return (
-    <div className="headArticleColumn" id="biggerArticle">
-      <p className="categoryText" alt="" style={color}>
+    <div className="mainBody__headArticleColumn">
+      <p className="mainBody__categoryText" alt="" style={color}>
         {subjectData}
       </p>
-      <div className="articleImageWrapper">
+      <div className="mainBody__articleImageWrapper">
         <ImageList data={articleData.thumbnail} />
-        <div className="readMoreText">
+        <div className="mainBody__readMoreText">
           <span>Read more</span>
         </div>
       </div>
-      <h2 className="articleDescription">{articleData.title}</h2>
+      <h2 className="mainBody__articleDescription">{articleData.title}</h2>
       <div>
-        <img className="authorAvatarBig" alt="" src="http://localhost:3001/slices/author.jpg" />
-        <p className="authorNameBig">{articleData.authorName}</p>
+        <img className="mainBody__authorAvatarBig" alt="" src="http://localhost:3001/slices/author.jpg" />
+        <p className="mainBody__authorNameBig">{articleData.authorName}</p>
       </div>
     </div>
   )

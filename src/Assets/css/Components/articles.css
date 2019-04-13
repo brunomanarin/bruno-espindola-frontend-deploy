@@ -1,43 +1,29 @@
 /*--------------- ARTICLE COMPONENTS -------------*/
 
-.smallerArticleTitles {
+.mainBody__smallerArticleTitles {
     font-weight: bold;
 }
 
-.smallerArticleTitlesFit {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.articlePhoto {
-    height: 354px;
-    width: 555px;
-}
-
-.articleDescription {
-    padding-top: 30px;
-}
-
-.articleParagraph {
+.mainBody__articleParagraph {
     float: left;
     padding-top: 10px;
     font-size: 14px;
     color: #686868;
 }
 
-.authorAvatarBig {
+.mainBody__authorAvatarBig {
     border-radius: 50%;
     float: left;
 }
 
-.authorAvatar {
+.mainBody__authorAvatar {
     border-radius: 50%;
     width: 35px;
     height: 35px;
     float: left;
 }
 
-.authorNameBig {
+.mainBody__authorNameBig {
     font-style: italic;
     font-size: 13px;
     color: var(--grey);
@@ -45,24 +31,58 @@
     padding-left: 5px;
 }
 
-.authorName {
+.mainBody__authorName {
     font-style: italic;
     font-size: 13px;
     color: var(--grey);
     float: left;
     padding-left: 5px;
 }
-
-.authorNameFit {
-    font-style: italic;
-    font-size: 13px;
-    color: var(--grey);
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-.categoryText {
+.mainBody__categoryText {
     margin: 3px;
     font-size: 10px;
+}
+
+.mainBody__headArticleColumn {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mainBody__featuredArticleColumn {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.mainBody__defaultArticleColumn {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* ------------- MOBILE/RESPONSIVITY -------------*/
+
+@media (min-width: 750px) {
+    .mainBody__headArticleColumn {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .mainBody__featuredArticleColumn {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .mainBody__defaultArticleColumn {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
 }

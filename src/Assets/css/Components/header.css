@@ -1,13 +1,13 @@
 /*-------------- HEADER ----------------*/
 
-#logoNavBar {
+#header__logoNavBar {
     position: absolute;
     left: 50%;
     margin-left: -22px;
     padding: 0;
 }
 
-#navbar-menu {
+#header__navbar-menu {
     display: none;
 }
 
@@ -25,7 +25,7 @@
     padding-left: 50%;
 }
 
-.icon {
+.header__icon {
     display: block;
     padding-top: 25px;
     padding-left: 10px;
@@ -34,12 +34,12 @@
 /* ------------- MOBILE/RESPONSIVITY -------------*/
 
 @media (min-width: 1170px) {
-    #logoNavBar {
+    #header__logoNavBar {
         position: relative;
         margin-left: 10%;
         left: 0;
     }
-    #navBarLinks {
+    #header__navBarLinks {
         position: absolute;
         right: 10%;
     }
@@ -65,15 +65,15 @@
         padding: .5rem 1rem;
         cursor: pointer;
     }
-    #navbar-menu {
+    #header__navbar-menu {
         display: inline-block;
     }
-    .icon {
+    .header__icon {
         display: none;
     }
 }
 
-.mobileMenu {
+.header__mobileMenu {
     margin-left: 40px;
     animation: mobileMenuTranslate 0.6s;
 }
