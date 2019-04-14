@@ -4,7 +4,7 @@ export function fetchSubjects() {
   return function(dispatch) {
     setTimeout(() => {
       axios
-        .get("http://localhost:3001/subjects.json")
+        .get("https://brunomanarin.github.io/api/subjects.json")
         .then(response => {
           dispatch({
             type: "FETCH_SUBJECTS_FULFILLED",

@@ -3,7 +3,7 @@ import axios from "axios";
 export function fetchArticles() {
   return function(dispatch) {
     axios
-      .get("http://localhost:3001/articles.json")
+      .get("https://brunomanarin.github.io/api/articles.json")
       .then(response => {
         dispatch({ type: "FETCH_ARTICLE_FULFILLED", payload: response.data });
       })

@@ -1,15 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-
 module.exports = {
-  const productionConfig = merge([
-    {
-      output: {
-        publicPath: "/",
-        publicPath: "/bruno-espindola-frontend-deploy/",
-  
-      },
-    },
-  ]);
   module: {
     rules: [
       {
@@ -42,6 +32,10 @@ module.exports = {
       template: "./src/index.html",
       filename: "./index.html"
     })
-  ]
+  ],
+  output: {
+    publicPath: "/bruno-espindola-frontend-deploy/",
+
+  },
 };
 

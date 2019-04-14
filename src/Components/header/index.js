@@ -14,10 +14,10 @@ class Header extends Component {
       <header>
         <nav className="header" id="header">
           <p id="header__logoNavBar">
-            <img alt="" src="http://localhost:3001/slices/logo.png" />
+            <img alt="" src="https://brunomanarin.github.io/api/slices/logo.png" />
           </p>
           <span className="header__icon" onClick={this.props.menuClickHandler}>
-            <img alt="" src="http://localhost:3001/slices/menu.png" />
+            <img alt="" src="https://brunomanarin.github.io/api/slices/menu.png" />
           </span>
           <ul className="header__navbarright">
             <div id="header__navbar-menu">

@@ -21,7 +21,7 @@ function headLineProp(articleData, subjectData, color) {
         <img
           className="mainBody__authorAvatarBig"
           alt=""
-          src="http://localhost:3001/slices/author.jpg"
+          src="https://brunomanarin.github.io/api/slices/author.jpg"
         />
         <p className="mainBody__authorNameBig">{articleData.authorName}</p>
       </div>

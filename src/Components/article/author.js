@@ -8,7 +8,7 @@ function Author(props) {
       <img
         className="mainBody__authorAvatar"
         alt=""
-        src="http://localhost:3001/slices/author.jpg"
+        src="https://brunomanarin.github.io/api/slices/author.jpg"
       />
       <p className="mainBody__authorName">by {authorName}</p>
     </div>

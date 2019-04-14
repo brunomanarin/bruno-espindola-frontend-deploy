@@ -16,9 +16,9 @@ class Header extends Component {
     return (
       <header>
         <nav className="header" id="header">
-          <p id="logoNavBar" ><img alt="" src="http://localhost:3001/slices/logo.png"></img></p>
+          <p id="logoNavBar" ><img alt="" src="https://brunomanarin.github.io/api/slices/logo.png"></img></p>
           <span className="icon" onClick={this.props.menuClickHandler}>
-            <img alt="" src="http://localhost:3001/slices/menu.png" />
+            <img alt="" src="https://brunomanarin.github.io/api/slices/menu.png" />
           </span>
           <ul className="navbarright">
             <div id="navbar-menu">

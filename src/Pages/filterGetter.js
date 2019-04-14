@@ -18,11 +18,11 @@ class Filter extends Component {
         articleData={article}
         articleId="6"
         subjectData={subject}
-        subjectId={subjectId}
+        subjectId={subjectId.toString()}
       />
     );
     const articleDisplay = [];
-    for (let i = 0; i < Math.floor(Math.random() * 10); i++) {
+    for (let i = 0; i < Math.floor(Math.random() * 10)+1; i++) {
       articleDisplay[i] = articleLorem;
     }
     return <div className="mainBody__line">{articleDisplay}</div>;

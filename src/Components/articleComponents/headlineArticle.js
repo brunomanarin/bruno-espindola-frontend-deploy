@@ -18,7 +18,7 @@ class HeadLineArticle extends Component {
         </div>
         <h2 className="articleDescription">{articleData.title}</h2>
         <div>
-          <img className="authorAvatarBig" alt="" src="http://localhost:3001/slices/author.jpg" />
+          <img className="authorAvatarBig" alt="" src="https://brunomanarin.github.io/api/slices/author.jpg" />
           <p className="authorNameBig">{articleData.authorName}</p>
         </div>
       </div>
