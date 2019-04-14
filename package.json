@@ -9,11 +9,16 @@
     "start": " npm run api & webpack-dev-server --open --mode development",
     "api": "node APIspoofing/server.js",
     "build": "webpack --mode production",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "deploy": "gh-pages -d build"
   },
   "author": "Bruno Manarin",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "gulp": "^4.0.0",
+    "gulp-gh-pages": "^0.5.4"
+  },
   "dependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "4.1.0",

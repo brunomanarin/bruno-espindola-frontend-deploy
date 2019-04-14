@@ -1,22 +1,20 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { Provider } from "react-redux"
-import store from './store.js'
-import MobileMenu from './Pages/mobileMenu'
-
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Provider } from "react-redux";
+import store from "./store.js";
 
 // Componentes importados:
-import Header from './Components/header'
-import Homepage from './Pages/homePage'
-import PreLoader from './Pages/loadingScreen'
-import Filter from './Pages/filterGetter'
+import Header from "./Components/header";
+import Homepage from "./Pages/homePage";
+import PreLoader from "./Pages/loadingScreen";
+import Filter from "./Pages/filterGetter";
+import ErrorHandler from "./Pages/errorHandler.js";
+import MobileMenu from "./Pages/mobileMenu";
 
 //Assets importados:
-import './Assets/css/Misc./misc.css'
-import './Assets/css/Animations/animations.css'
-import ErrorHandler from './Pages/errorHandler.js'
+import "./Assets/css/Animations/animations.css";
 
-@connect((store) => {
+@connect(store => {
   return {
     subjects: store.subject.subjects,
     subjectsFetched: store.subject.fetched,
@@ -24,17 +22,15 @@ import ErrorHandler from './Pages/errorHandler.js'
     article: store.article.articles,
     articleFetched: store.article.fetched,
     articleError: store.article.errorOcurred
-
   };
 })
-
 class App extends Component {
   state = {
     menuOpen: false,
     subjectFilter: null
   };
   menuClickHandler = () => {
-    this.setState((prevState) => {
+    this.setState(prevState => {
       return { menuOpen: !prevState.menuOpen };
     });
   };
@@ -42,7 +38,7 @@ class App extends Component {
     this.setState({
       subjectFilter: subjectId
     });
-  };
+  }
   render() {
     let mobileMenu;
     let preLoader;
@@ -54,24 +50,28 @@ class App extends Component {
       homePage = null;
     }
     if (this.props.articleError && this.props.subjectError) {
-      errorHandler = <ErrorHandler />
+      errorHandler = <ErrorHandler />;
       preLoader = null;
     }
     if (this.state.menuOpen) {
-      mobileMenu = <MobileMenu
-        filter={this.filterClickHandler.bind(this)}
-        menuClickHandler={this.menuClickHandler}
-      />;
+      mobileMenu = (
+        <MobileMenu
+          filter={this.filterClickHandler.bind(this)}
+          menuClickHandler={this.menuClickHandler}
+        />
+      );
       homePage = null;
       filter = null;
     }
     if (this.state.subjectFilter !== null) {
-      filter = <Filter
-        subjectId={this.state.subjectFilter}
-        article={this.props.article}
-        subject={this.props.subjects}
-        filter={this.filterClickHandler.bind(this)}
-      />;
+      filter = (
+        <Filter
+          subjectId={this.state.subjectFilter}
+          article={this.props.article}
+          subject={this.props.subjects}
+          filter={this.filterClickHandler.bind(this)}
+        />
+      );
       homePage = null;
     }
     return (

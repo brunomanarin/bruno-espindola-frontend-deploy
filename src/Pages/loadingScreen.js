@@ -1,5 +1,5 @@
-import React from 'react'
-import '../Assets/css/Pages/loadingScreen.css'
+import React from "react";
+import "../Assets/css/Pages/loadingScreen.css";
 
 function PreLoader() {
   return (
@@ -8,6 +8,6 @@ function PreLoader() {
       <div />
       <div />
     </div>
-  )
+  );
 }
-export default PreLoader
+export default PreLoader;

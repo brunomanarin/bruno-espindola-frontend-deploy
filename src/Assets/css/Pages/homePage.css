@@ -1,5 +1,14 @@
 /* -------------- HOME PAGE STRUCTURING -------------*/
 
+:root {
+    --grey: #808080;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #mainBody {
     margin-top: 75px;
     max-width: 1170px;
@@ -28,6 +37,14 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+
+.mainBody__separator {
+    height: 1px;
+    width: 100%;
+    background: #E3E3E3;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 *, ::after, ::before {

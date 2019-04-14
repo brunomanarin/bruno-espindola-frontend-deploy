@@ -1,5 +1,15 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+
 module.exports = {
+  const productionConfig = merge([
+    {
+      output: {
+        publicPath: "/",
+        publicPath: "/bruno-espindola-frontend-deploy/",
+  
+      },
+    },
+  ]);
   module: {
     rules: [
       {
@@ -15,18 +25,15 @@ module.exports = {
           {
             loader: "html-loader"
           }
-
         ]
       },
       {
         test: /(\.css$)/,
-        loaders: [
-          'style-loader', 'css-loader'
-        ]
+        loaders: ["style-loader", "css-loader"]
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-        loader: 'url-loader?limit=100000'
+        loader: "url-loader?limit=100000"
       }
     ]
   },
@@ -35,6 +42,6 @@ module.exports = {
       template: "./src/index.html",
       filename: "./index.html"
     })
-
   ]
 };
+

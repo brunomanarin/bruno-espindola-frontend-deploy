@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-import Author from '../misc./author'
-import '../../Assets/css/Components/articles.css'
+import Author from "./author";
+import "../../Assets/css/Components/articles.css";
 
 function defaultProp(articleData, subjectData, color) {
   return (
@@ -16,16 +16,20 @@ function defaultProp(articleData, subjectData, color) {
         <p>{articleData.description}</p>
       </div>
     </div>
-  )
+  );
 }
 
 class DefaultArticle extends Component {
   render() {
-    const { articleData, subjectData, articleId, subjectId } = this.props
+    const { articleData, subjectData, articleId, subjectId } = this.props;
     const color = {
-      color: `#${subjectData.color[subjectId]}`,
-    }
-    return defaultProp(articleData.articles[articleId], subjectData.subjects[subjectId], color)
+      color: `#${subjectData.color[subjectId]}`
+    };
+    return defaultProp(
+      articleData.articles[articleId],
+      subjectData.subjects[subjectId],
+      color
+    );
   }
 }
 
@@ -33,13 +37,13 @@ DefaultArticle.propTypes = {
   articleData: PropTypes.object,
   subjectData: PropTypes.object,
   articleId: PropTypes.string,
-  subjectId: PropTypes.string,
-}
+  subjectId: PropTypes.string
+};
 DefaultArticle.defaultProps = {
-  articleData: '',
-  subjectData: '',
-  articleId: '0',
-  subjectId: '0',
-}
+  articleData: "",
+  subjectData: "",
+  articleId: "0",
+  subjectId: "0"
+};
 
-export default DefaultArticle
+export default DefaultArticle;
