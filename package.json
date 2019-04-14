@@ -10,7 +10,7 @@
     "api": "node APIspoofing/server.js",
     "build": "webpack --mode production",
     "webpack": "webpack",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Bruno Manarin",
   "license": "MIT",
