@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
-    "start": " npm run api & webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode development",
     "api": "node APIspoofing/server.js",
     "build": "webpack --mode production",
     "webpack": "webpack",
